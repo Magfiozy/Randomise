@@ -1,0 +1,11 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="100 " Width="300">
+    <Grid>
+        <DockPanel VerticalAlignment="Center" Margin="10">
+            <Label Name="labelValue"></Label>
+            <Slider Maximum="100" TickPlacement="BottomRight" TickFrequency="5" IsSnapToTickEnabled="True" Name="slValue" />
+        </DockPanel>
+    </Grid>
+</Window>
